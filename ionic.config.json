@@ -1,0 +1,7 @@
+{
+  "name": "app-aula-cesmac",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

@@ -1,0 +1,29 @@
+page-login {
+    ion-content {
+        background-image: url(../../assets/imgs/fundo.png);
+        background-size: 100%;
+    }
+
+    h1 {
+        color: white;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+    ion-item {
+        background: rgba(255, 255, 255, 0.2) !important;
+    }
+
+    ion-label, ion-input {
+        color: black !important;
+    }
+
+    #register {
+        text-align: center;
+        color: white !important;
+    }
+
+    a {
+        color: white;
+    }
+}

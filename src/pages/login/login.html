@@ -1,0 +1,19 @@
+<ion-content padding>
+  <form [formGroup]="form">
+    <ion-item>
+      <ion-label floating>Email</ion-label>
+      <ion-input type="email" formControlName="email" [(ngModel)]="user.email"></ion-input>
+    </ion-item>
+
+    <ion-item>
+      <ion-label floating>Senha</ion-label>
+      <ion-input type="password" formControlName="password" [(ngModel)]="user.password"></ion-input>
+    </ion-item>
+
+    <div padding>
+      <button ion-button block type="submit" [disabled]="!form.valid" (click)="loginForm(user)">Entrar</button>
+    </div>
+  </form>
+  <!--<button ion-button color="light" (click)="register()">Register</button>-->
+  <p id="register"><a (click)="register()">Criar uma conta!</a></p>
+</ion-content>

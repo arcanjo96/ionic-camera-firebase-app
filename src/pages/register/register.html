@@ -1,0 +1,22 @@
+<ion-header>
+
+  <ion-navbar color="primary">
+    <ion-title>Criar Conta</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-item>
+    <ion-label floating >Email</ion-label>
+    <ion-input type="email" [(ngModel)]="user.email"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label floating >Senha</ion-label>
+    <ion-input type="password" [(ngModel)]="user.password"></ion-input>
+  </ion-item>
+
+  <button ion-button full (click)="register(user)">Registrar</button>
+</ion-content>
